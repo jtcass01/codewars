@@ -5,6 +5,8 @@ Define a function isPrime that takes one integer argument and returns true or fa
 
 
 Per Wikipedia, a prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+
 Example
 
 
