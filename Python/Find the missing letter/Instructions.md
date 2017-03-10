@@ -1,3 +1,6 @@
+# 6 kyu
+
+
 Find the missing letter
 
 
