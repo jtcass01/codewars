@@ -1,3 +1,6 @@
+# 7 kyu
+
+
 The Western Suburbs Croquet Club has two categories of membership, Senior and Open. They would like your help with an application form that will tell prospective members which category they will be placed.
 
 
@@ -8,6 +11,8 @@ To be a senior, a member must be at least 55 years old and have a handicap great
 
 
 Input will consist of a list of lists containing two items each. Each list contains information for a single potential member. Information consists of an integer for the person's age and an integer for the person's handicap.
+
+
 Example Input
 
 
@@ -19,6 +24,8 @@ Example Input
 
 
 Output will consist of a list of string values (in Haskell: Open or Senior) stating whether the respective member is to be placed in the senior or open category.
+
+
 Example Output
 
 
