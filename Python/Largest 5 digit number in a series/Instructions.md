@@ -1,4 +1,4 @@
-# 6 kyu
+# 5 kyu
 
 
 In the following 6 digit number:
