@@ -1,3 +1,6 @@
+# 6 kyu
+
+
 In the following 6 digit number:
 
 
