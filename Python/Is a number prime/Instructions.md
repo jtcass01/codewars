@@ -1,3 +1,6 @@
+# 6 kyu
+
+
 Is Prime
 
 
