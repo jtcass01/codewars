@@ -1,5 +1,5 @@
 class Vector:
-    def __init__(self, arr):
+    def __init__(self, arr=[]):
         self.arr = arr
 
     def __str__(self):
