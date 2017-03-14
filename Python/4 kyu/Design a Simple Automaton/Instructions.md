@@ -19,19 +19,19 @@ Our automaton should return whether we end in our accepted state, or not (true/f
 
 Here's an example.
 
-a = Automaton()
+    a = Automaton()
 
-# Do anything you need to set up this automaton's states.
+    // Do anything you need to set up this automaton's states.
 
-is_accepted = a.read_commands(["1", "0", "0", "1", "0"])
+    is_accepted = a.read_commands(["1", "0", "0", "1", "0"])
 
 We make these transitions based on the input of ["1", "0", "0", "1", "0"],
 
-1 q1 -> q2
-0 q2 -> q3
-0 q3 -> q2
-1 q2 -> q2
-0 q2 -> q3
+    1 q1 -> q2
+    0 q2 -> q3
+    0 q3 -> q2
+    1 q2 -> q2
+    0 q2 -> q3
 
 We end in q3, which is not our accept state, so return false.
 
@@ -39,17 +39,17 @@ The input of ["1", "0", "0", "1", "0"] would cause us to return false, as we wou
 
 I have started you off with the bare bones of the Automaton object.
 
-class Automaton(object):
+    class Automaton(object):
 
-    def __init__(self):
-        self.states = []
+        def __init__(self):
+            self.states = []
 
-    def read_commands(self, commands):
-        # Return True if we end in our accept state, False otherwise
+        def read_commands(self, commands):
+            # Return True if we end in our accept state, False otherwise
 
-my_automaton = Automaton()
+    my_automaton = Automaton()
 
-# Do anything necessary to set up your automaton's states, q1, q2, and q3.
+    // Do anything necessary to set up your automaton's states, q1, q2, and q3.
 
 You will have to design your state objects, and how your Automaton handles transitions. Also make sure you set up the three states, q1, q2, and q3, for the myAutomaton instance. The test fixtures will be calling against myAutomaton.
 
