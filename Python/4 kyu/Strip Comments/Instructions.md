@@ -6,23 +6,23 @@ Example:
 
 Given an input string of:
 
-apples, pears # and bananas
+    apples, pears # and bananas
 
-grapes
+    grapes
 
-bananas !apples
+    bananas !apples
 
 The output expected would be:
 
-apples, pears
+    apples, pears
 
-grapes
+    grapes
 
-bananas
+    bananas
 
 The code would be called like so:
 
-result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
+    result = solution("apples, pears # and bananas\ngrapes\nbananas !apples", ["#", "!"])
 
-// result should == "apples, pears\ngrapes\nbananas"
+    // result should == "apples, pears\ngrapes\nbananas"
 
