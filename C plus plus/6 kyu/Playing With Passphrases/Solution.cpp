@@ -16,14 +16,7 @@ class PlayPass
 };
 
 string PlayPass::playPass(const string &s, int n){
-  cout << "_" << endl;
-  
-  cout << "Initial: " << s << " with n value of " << n << endl;
-
-  string result = shiftLetters(s, n);
-  result = complimentDigits(result);
-  result = bounceCase(result);
-  result = reverse(result);
+  string result = reverse(bounceCase(complimentDigits(shiftLetters(s, n))));
 
   return result;
 }
