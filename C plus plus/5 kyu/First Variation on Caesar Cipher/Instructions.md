@@ -1,3 +1,5 @@
+# 5 kyu
+
 The action of a Caesar cipher is to replace each plaintext letter with a different one a fixed number of places up or down the alphabet.
 
 This program performs a variation of the Caesar shift. The shift increases by 1 for each character (on each iteration).
