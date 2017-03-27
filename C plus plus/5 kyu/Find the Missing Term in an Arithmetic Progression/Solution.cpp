@@ -13,7 +13,7 @@ static long findMissing(std::vector<long> list){
   }
   
   for(unsigned int differences_i = 0; differences_i < differences.size(); differences_i++){
-    if(abs(differences[differences_i]) < minChange){
+    if(abs(differences[differences_i]) <= minChange){
       minChange = abs(differences[differences_i]);
       break;
     }
