@@ -130,4 +130,3 @@ void Player::advance(const string &str){
     score = true;
   }
 }
-
