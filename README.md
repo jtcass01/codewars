@@ -1,4 +1,5 @@
-# Overall rank: 4 kyu (97th Percentile)
+# Leaderboard Position: 5,700 (98th Percentile)
+# Overall rank: 4 kyu
 # Python rank: 4 kyu
 # C++ rank: 5 kyu
 # Java rank: 7 kyu
