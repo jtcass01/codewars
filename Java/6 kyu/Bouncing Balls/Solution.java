@@ -1,6 +1,6 @@
 public class BouncingBall {
 	
-	public static int bouncingBall(double h, double bounce, double window) {
+public static int bouncingBall(double h, double bounce, double window) {
     int result = 0;
     
     if(bounce >= 1 || bounce <= 0 || h < window){
@@ -21,5 +21,6 @@ public class BouncingBall {
     } else {
       return result;
     }
-	}
+}
+
 }
