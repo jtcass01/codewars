@@ -12,7 +12,7 @@ For example:
         '(){}[]' and '([{}])' would be considered valid, while '(}', '[(])', and '[({})](]' would be considered invalid.
 
 Examples:
-        validBraces( "(){}[]" ) => returns true
-        validBraces( "(}" ) => returns false
-        validBraces( "[(])" ) => returns false
-        validBraces( "([{}])" ) => returns true
+validBraces( "(){}[]" ) => returns true
+validBraces( "(}" ) => returns false
+validBraces( "[(])" ) => returns false
+validBraces( "([{}])" ) => returns true
