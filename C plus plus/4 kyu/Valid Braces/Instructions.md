@@ -9,10 +9,10 @@ All input strings will be nonempty, and will only consist of open parentheses '(
 What is considered Valid? A string of braces is considered valid if all braces are matched with the correct brace.
 
 For example:
-    '(){}[]' and '([{}])' would be considered valid, while '(}', '[(])', and '[({})](]' would be considered invalid.
+        '(){}[]' and '([{}])' would be considered valid, while '(}', '[(])', and '[({})](]' would be considered invalid.
 
 Examples:
-    validBraces( "(){}[]" ) => returns true
-    validBraces( "(}" ) => returns false
-    validBraces( "[(])" ) => returns false
-    validBraces( "([{}])" ) => returns true
+        validBraces( "(){}[]" ) => returns true
+        validBraces( "(}" ) => returns false
+        validBraces( "[(])" ) => returns false
+        validBraces( "([{}])" ) => returns true
