@@ -1,4 +1,4 @@
-# Leaderboard Position: 5,513 (98th Percentile)
+# Leaderboard Position: \#4,770 (98th Percentile)
 # Overall rank: 4 kyu
 # Python rank: 4 kyu
 # C++ rank: 5 kyu
