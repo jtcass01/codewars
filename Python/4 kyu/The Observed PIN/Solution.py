@@ -1,10 +1,8 @@
 import itertools
 
 def get_pins(observed):
-    result = []
+    numMatrix = [["1","4","7"],["2","5","8","0"],["3","6","9"]]
     possibilityMatrix = []
-
-    result.append(observed)
 
     for num in observed:
         possibilityArray = []
