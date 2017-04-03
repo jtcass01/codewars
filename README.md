@@ -1,9 +1,9 @@
-# Leaderboard Position: \#3,911 (98th Percentile)
+# Leaderboard Position: \#3,807 (98th Percentile)
 # Overall rank: 4 kyu
 # Python rank: 4 kyu
 # C++ rank: 5 kyu
 # Java rank: 6 kyu
-# Completed Challenges: 61
+# Completed Challenges: 62
 
 www.codewars.com is a website for daily programming challenges.  Each challege typically takes 10-45 minutes to complete.  The challenges are ranged on a scale of 4 "dan" to 1 "dan" with 4 "dan" being the hardest problem and 1 "dan" being the least hard.  This scale is reseved for the problems at the "Master" level.  Codewars also has 4 other categories that use an additional tag as described below:
 
