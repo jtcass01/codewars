@@ -1,6 +1,7 @@
+import itertools
+
 def get_pins(observed):
     result = []
-    numMatrix = [["1","4","7"],["2","5","8","0"],["3","6","9"]]
     possibilityMatrix = []
 
     result.append(observed)
@@ -27,19 +28,23 @@ def get_pins(observed):
             possibilityArray.append(numMatrix[positionArray[0]][positionArray[1]-1])
         #check bottom
         if (positionArray[0] == 1):
-            if (positionArray[1] < 4):
+            if (positionArray[1] < 3):
                 possibilityArray.append(numMatrix[positionArray[0]][positionArray[1]+1])
         else:
-            if (positionArray[1] < 3):
+            if (positionArray[1] < 2):
                 possibilityArray.append(numMatrix[positionArray[0]][positionArray[1]+1])
 
         possibilityMatrix.append(possibilityArray)
-        print(possibilityMatrix)
-        
-    for array_i in range(0, len(possibilityMatrix)):
-        print(array_i)
-        
-    if(len(observed) < 2):
-        return possibilityArray
+
+    if(len(possibilityMatrix) < 2):
+        return possibilityMatrix[0]
     else:
-        return possibilityMatrix
+        return combineMatrix(possibilityMatrix)
+        
+def combineMatrix(matrix):
+    result = []
+
+    for arr in list(itertools.product(*matrix)):
+        result.append("".join(arr))
+
+    return result
